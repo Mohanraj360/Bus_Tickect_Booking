@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".TicketBookingActivity">
+
+    <Spinner
+        android:id="@+id/source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Source"
+        android:minHeight="40dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="55dp"/>
+     <Spinner
+         android:id="@+id/destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Destination"
+         android:minHeight="40dp"
+         android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"/>
+
+ <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seat number"
+     android:id="@+id/seat_num"
+     android:inputType="number"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Select Date"
+        android:gravity="center_vertical"
+        android:id="@+id/date"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:layout_weight="1"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/age"
+            android:layout_marginTop="20dp"
+            android:hint="age"
+            android:inputType="number"
+
+            android:layout_marginEnd="15dp"
+            />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you Senior citizen /Childern"
+        android:layout_marginTop="15dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_green2"
+        android:elevation="10dp"
+        android:layout_marginBottom="50dp"
+
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/confirm_ticket"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_green2"
+            android:gravity="center"
+            android:text="Confirm Ticket"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_green2"
+        android:gravity="center"
+        android:text="logout"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp" />
+</LinearLayout>

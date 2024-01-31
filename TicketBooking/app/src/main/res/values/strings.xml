@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TicketBooking</string>
+
+    <string-array name="source">
+        <item>Chennai</item>
+        <item>Banglore</item>
+        <item>Thiruvannamalai</item>
+        <item>Salem</item>
+        <item>Vellore</item>
+    </string-array>
+
+    <string-array name="destination">
+        <item>Chennai</item>
+        <item>Banglore</item>
+        <item>Thiruvannamalai</item>
+        <item>Salem</item>
+        <item>Vellore</item>
+    </string-array>
+</resources>

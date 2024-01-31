@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="date"
+        android:id="@+id/date"
+        android:textSize="16dp"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"/>
+      <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="50rs"
+          android:id="@+id/amount"
+
+          android:textSize="16dp"
+          android:textColor="#35D83C"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:text="source"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:id="@+id/source"
+        android:layout_height="40dp"/>
+       <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:text="destination"
+           android:id="@+id/destination"
+           android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:layout_height="40dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGrey"/>
+
+
+
+
+
+
+</LinearLayout>

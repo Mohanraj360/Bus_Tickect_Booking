@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1030610391937",
+    "firebase_url": "https://bus-reservation-d9e3e-default-rtdb.firebaseio.com",
+    "project_id": "bus-reservation-d9e3e",
+    "storage_bucket": "bus-reservation-d9e3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030610391937:android:6a67f46b7d1f036eb60e80",
+        "android_client_info": {
+          "package_name": "com.example.ticketbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030610391937-id1j8cffg1svn0p4usff17ugo600r859.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx_nWrwTd6jFPNp8Zsxawds5X2MDJwcJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030610391937-id1j8cffg1svn0p4usff17ugo600r859.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
